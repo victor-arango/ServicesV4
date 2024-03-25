@@ -7,44 +7,26 @@ import Container from "./Container.astro"
 
 <div class="relative" id="inicio">
     <Container>
-      <section class="relative flex items-center w-full bg-white md:h-screen">
-        <div class="relative items-center w-full px-5 py-24 mx-auto lg:px-16 lg:py-36 max-w-7xl md:px-12">
-          <div class="relative flex-col items-start m-auto align-middle">
-            <div class="grid grid-cols-1 gap-6 lg:gap-24 lg:grid-cols-2">
-              <div class="relative items-center gap-12 m-auto lg:inline-flex">
-                <div class="max-w-xl text-center lg:text-left">
-                  <div>
-                    
-                    <div class="py-6"></div>
-                    <span class="w-auto px-4 py-2 mt-10 rounded-full bg-teal-500/10"><span class="text-xs text-teal-500">Servicio rápido, eficaz y sin salir de casa.</span></span>
-                    <h1 class="mt-8 text-3xl font-semibold tracking-tighter lg:text-6xl text-slate-900">
-                      Revisión, Mantenimiento y Reparación 
-                    </h1>
-                    <p class="max-w-xl mt-4 text-lg tracking-tight lg:text-xl text-slate-500">
-                      ¡Mantenimiento y reparación de electrodomésticos a domicilio! ❄️️ Reparamos neveras, nevecones, lavadoras, secadoras y aires acondicionados de todas las marcas.
-
-                    </p>
-                    <a 
-                    class="mt-4 inline-flex items-center justify-center w-full px-6 py-3 font-medium text-center text-white duration-200 bg-indigo-600 focus:outline-none custom-blur focus-visible:outline-black focus-visible:ring-black hover:bg-indigo-100 hover:border-white hover:text-indigo-600 lg:w-auto md:w-auto rounded-xl"
-                    href="#_">Contactanos ahora     →</a>
-                  </div>
-                  
-                </div>
-              </div>
-                  <!-- <video
-          class="object-cover object-center w-full h-full mx-auto lg:ml-auto rounded-2xl"
-          autoplay
-          muted
-          src="/Image.mp4"></video>  -->
-          <img 
-          class="object-cover object-center w-full h-full mx-auto lg:ml-auto rounded-2xl"
-          src="/public/images/products/image1.jpg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+		  <div class="mt-9 mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32">
+		    <!-- Component -->
+		    <div class="grid grid-cols-1 items-center justify-items-start gap-8 sm:gap-20 lg:grid-cols-2">
+		      <!-- Hero Content -->
+		      <div class="flex flex-col">
+		        <!-- Hero Title -->
+		        <h1 class="mb-4 text-4xl font-bold md:text-6xl">  Revisión, Mantenimiento y Reparación </h1>
+		        <p class="mb-6 max-w-lg text-base text-[#636262] md:mb-10 lg:mb-12">  ¡Mantenimiento y reparación de electrodomésticos a domicilio! ❄️️ Reparamos neveras, nevecones, lavadoras, secadoras y aires acondicionados de todas las marcas. </p>
+		        <!-- Hero Button -->
+		        <div class="flex items-center">
+		          <a 
+                  class="mt-4 inline-flex items-center justify-center w-full px-6 py-3 font-medium text-center text-white duration-200 bg-indigo-600 focus:outline-none custom-blur focus-visible:outline-black focus-visible:ring-black hover:bg-indigo-100 hover:border-white hover:text-indigo-600 lg:w-auto md:w-auto rounded-xl"
+                  href="#_">Contactanos ahora     →</a>
+		        </div>
+		      </div>
+		      <!-- Hero Image -->
+		      <img src="/public/images/products/image1.jpg" alt="" class="inline-block h-full w-full max-w-[640px]" />
+		    </div>
+		  </div>
+      <div class="mt-0 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
         <div class="p-4  transition duration-200 hover:grayscale-0">
             <img src="./images/clients/centrales.png" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
           </div>
@@ -64,6 +46,12 @@ import Container from "./Container.astro"
             <img src="./images/clients/challenger.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
         </div>
       </div>
+
+
+
+
+
+
     </Container>
 </div>
 
